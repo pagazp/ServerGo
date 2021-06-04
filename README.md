@@ -1,24 +1,4 @@
-[![Build Status](https://travis-ci.org/kost/revsocks.png)](https://travis-ci.org/kost/revsocks)
-[![CircleCI](https://circleci.com/gh/kost/revsocks.svg?style=svg)](https://circleci.com/gh/kost/revsocks)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3c687bcd445e4a828c914e4e2384196e)](https://www.codacy.com/manual/kost/revsocks?utm_source=github.com&utm_medium=referral&utm_content=kost/revsocks&utm_campaign=Badge_Grade)
 
-# revsocks
-
-Reverse socks5 tunneler with SSL/TLS and proxy support (without proxy authentication and with basic/NTLM proxy authentication)
-Based on <https://github.com/brimstone/rsocks> and <https://github.com/llkat/rsockstun>
-
-# Features
-
--   Single executable (thanks to Go!)
--   Linux/Windows/Mac/BSD support
--   Encrypted communication with TLS
--   Support for proxies (without authentication or with basic/NTLM proxy authentication)
--   Automatic SSL/TLS certificate generation if not specified
-
-# Architecture
-
--   server = locally listening socks server
--   client = client which connects back to server
 
 ## Usage
 
